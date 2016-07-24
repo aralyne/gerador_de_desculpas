@@ -2621,3 +2621,230 @@ Processing by Admin::ApologizesController#index as HTML
   [1m[35mAuthor Load (0.2ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
   Rendered admin/apologizes/index.html.erb within layouts/application (41.1ms)
 Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 10:37:40 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.1ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 243ms (Views: 230.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/apologizes/new" for 127.0.0.1 at 2016-07-24 10:37:46 -0300
+Processing by Admin::ApologizesController#new as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered admin/apologizes/_form.html.erb (85.1ms)
+  Rendered admin/apologizes/new.html.erb within layouts/application (89.1ms)
+Completed 200 OK in 109ms (Views: 107.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 10:37:52 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[36mApologize Load (1.1ms)[0m  [1mSELECT "apologizes".* FROM "apologizes"[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/apologizes/2/edit" for 127.0.0.1 at 2016-07-24 10:37:53 -0300
+Processing by Admin::ApologizesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered admin/apologizes/_form.html.erb (4.0ms)
+  Rendered admin/apologizes/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 49ms (Views: 39.3ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:38:01 -0300
+Processing by Admin::ApologizesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e9I5NMxuQdkEqwuY5eh0VSf6RO7A5wBFMw+AOO2m1saehrHEAgVfHFnUJfU8xZ1NQ/pzwddmJ6ouEbRSpOBu/A==", "apologize"=>{"apologize_image"=>#<ActionDispatch::Http::UploadedFile:0x007f5f2e350400 @tempfile=#<Tempfile:/tmp/RackMultipart20160724-6468-185okkv.jpg>, @original_filename="enhanced-buzz-24746-1398447054-4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"apologize[apologize_image]\"; filename=\"enhanced-buzz-24746-1398447054-4.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Eu tenho um encontro quente com um pedaço de pizza", "author_id"=>"4"}, "commit"=>"Update Apologize", "id"=>"2"}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "apologizes" SET "apologize_image" = ?, "updated_at" = ? WHERE "apologizes"."id" = ?  [["apologize_image", "enhanced-buzz-24746-1398447054-4.jpg"], ["updated_at", "2016-07-24 13:38:01.050997"], ["id", 2]]
+  [1m[36m (76.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/apologizes/2
+Completed 302 Found in 95ms (ActiveRecord: 77.5ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:38:01 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 10:38:16 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT "apologizes".* FROM "apologizes"[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes/2/edit" for 127.0.0.1 at 2016-07-24 10:38:20 -0300
+Processing by Admin::ApologizesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered admin/apologizes/_form.html.erb (2.6ms)
+  Rendered admin/apologizes/edit.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 10:38:21 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT "apologizes".* FROM "apologizes"[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:38:22 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 10:38:25 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:38:28 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:38:51 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:39:05 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `symbolize_keys' for "300x300":String):
+    2: 
+    3: <p>
+    4:   <strong>Apologize image:</strong>
+    5:   <%= image_tag(@apologize.apologize_image, "300x300") %>
+    6: </p>
+    7: 
+    8: <p>
+  app/views/admin/apologizes/show.html.erb:5:in `_app_views_admin_apologizes_show_html_erb___857017417351239014_70023391198300'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.1ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.8ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.2ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:39:13 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:39:29 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:40:34 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:40:51 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 10:41:05 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes/" for 127.0.0.1 at 2016-07-24 10:41:21 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes/" for 127.0.0.1 at 2016-07-24 10:41:42 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes/" for 127.0.0.1 at 2016-07-24 10:41:53 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes/new" for 127.0.0.1 at 2016-07-24 10:42:05 -0300
+Processing by Admin::ApologizesController#new as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered admin/apologizes/_form.html.erb (3.4ms)
+  Rendered admin/apologizes/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 10:42:07 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT "apologizes".* FROM "apologizes"[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.3ms)
