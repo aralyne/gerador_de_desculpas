@@ -13,17 +13,18 @@
 
   <div class="field">
     <%= f.label :apologize_image %><br>
-    <%= f.file_field :apologize_image %>
+    <%= f.file_field :apologize_image%>
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <%= f.text_area :description , class:"form-control"  %>
   </div>
   <div class="field">
     <%= f.label :author_id %><br>
-    <%= f.select :author_id , @authors %>
+    <%= f.select :author_id , @authors, {prompt: "selecione"}, class:"form-control"  %>
   </div>
+  <br>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "salvar", class:"btn btn-primary btn-xs" %>
   </div>
 <% end %>

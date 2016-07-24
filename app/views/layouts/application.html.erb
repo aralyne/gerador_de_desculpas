@@ -8,9 +8,15 @@
 </head>
 <body>
 
-<div class="container">
-  <%= yield %>
-</div>
+  <div class="container">
+    <% unless current_page?(home_index_path)  %>
+      <ul class="nav nav-pills">
+        <li role="presentation"><%= link_to "Desculpas" , admin_apologizes_path %></li>
+        <li role="presentation"><%= link_to "Autores" , admin_authors_path %></li>
+      </ul>
+    <% end %>
+    <%= yield %>
+  </div>
 
 </body>
 </html>
