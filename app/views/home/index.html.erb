@@ -1,5 +1,20 @@
 
+<div class="col-sm-12">
+  <div class="col-sm-offset-2">
+    <h2>Gerador de desculpas para não sair de casa</h2>
+    <h5>Se você não aguenta mais pensar em desculpas para não sair fds, essa ferramenta é pra você</h5>
+  </div>
+  <center>
+    <%= image_tag(@apologize.apologize_image , size: "500x300") %>
+  </center>
+  <div class="col-sm-8 col-sm-offset-2 jumbotron">
+     <div class="container">
+        <%= @apologize.description %>
+      </div>
+  </div>
+</div>
 
-<%= @apologize.description %>
 
-<%= link_to "Refresh", home_index_path, :method => :get %>
+<div class="col-sm-offset-3 col-sm-5">
+  <%= link_to "gerar desculpa", home_index_path, method: :get, class:"btn btn-danger btn-block" %>
+</div>
