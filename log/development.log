@@ -4700,3 +4700,160 @@ Processing by HomeController#index as HTML
   [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
   Rendered home/index.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:29:32 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 385ms (Views: 372.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:29:52 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.3ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 50ms (Views: 48.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:30:38 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/apologizes/2" for 127.0.0.1 at 2016-07-24 11:31:18 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 32ms (Views: 27.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:31:20 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:31:59 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:33:59 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:34:46 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.4ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:34:50 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"cxSc7kd8aSqhbBmtLZ7+D23+SupVk6wV21IX59umV9eWQBQeiRd37/wTN8D0sxcXCf59xUISi/rGTCONkuDv7Q=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:34:51 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"QrJDReH1U7dZiK7MTrwZ6DbJNp8y43O1c31Lhe+fhB+n5su1L55NcgT3gKGXkfDwUskBsCViVFpuY3/vptk8JQ=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:34:51 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"rzjuZDFOZiWDs4jvVZWXYcAARN+FZL/sVkLU94IkIVNKbGaU/yV44N7MpoKMuH55pABz8JLlmANLXOCdy2KZaQ=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 30.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:34:52 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"sHPjUj2hqQdd0myq1+R9lFjWvPn88FA5Ya/DqXfLn5VVJ2ui88q3wgCtQscOyZSMPNaL1utxd9Z8sffDPo0nrw=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:34:53 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"xHT99wwhQNnVQ0/SgBwFP/RRd9CBfM6/4WakGUdlMMUhIHUHwkpeHIg8Yb9ZMewnkFFA/5b96VD8eJBzDiOI/w=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:34:54 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"3o/7NKMOJhTbid6feR8CC7B7px11cce6LYmbWomhweQ723PEbWU40Yb28PKgMusT1HuQMmLw4FUwl68wwOd53g=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:34:55 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"XS4GHbqr1BG2R3M6ySncCO+Ett1kr/iS7fnlkmZEKSG4eo7tdMDK1Os4XVcQBDUQi4SB8nMu333w59H4LwKRGw=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.3ms)
