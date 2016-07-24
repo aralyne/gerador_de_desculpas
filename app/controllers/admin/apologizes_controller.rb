@@ -1,6 +1,6 @@
 class Admin::ApologizesController < ApplicationController
   before_action :set_apologize, only: [:show, :edit, :update, :destroy]
-
+  before_action :set_authors, only: [:new, :edit]
 
   def index
     @apologizes = Apologize.all
@@ -46,6 +46,9 @@ class Admin::ApologizesController < ApplicationController
   end
 
   private
+    def set_authors
+      @authors = Author.all.collect{|author| [author.name, author.id]}
+    end
 
     def set_apologize
       @apologize = Apologize.find(params[:id])
