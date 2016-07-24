@@ -2848,3 +2848,1855 @@ Processing by Admin::ApologizesController#index as HTML
   [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
   Rendered admin/apologizes/index.html.erb within layouts/application (2.5ms)
 Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 10:51:30 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.0ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 10:52:28 -0300
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.7ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 10:52:54 -0300
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 10:53:48 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.3ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  Rendered home/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 266ms (Views: 261.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 10:53:48 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 10:53:48 -0300
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 10:55:56 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT "apologizes".* FROM "apologizes"[0m
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/apologizes/new" for 127.0.0.1 at 2016-07-24 10:55:58 -0300
+Processing by Admin::ApologizesController#new as HTML
+  [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT "authors".* FROM "authors"[0m
+  Rendered admin/apologizes/_form.html.erb (8.8ms)
+  Rendered admin/apologizes/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/admin/apologizes" for 127.0.0.1 at 2016-07-24 10:56:52 -0300
+Processing by Admin::ApologizesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R/hm0D7nFBCWfJ6NWUqE2qydpZ1WsD99EFHEqCry56+irO4g8IwK1csDsOCAZ23CyJ2SskExGJINT/DCY7RflQ==", "apologize"=>{"apologize_image"=>#<ActionDispatch::Http::UploadedFile:0x007f361c6a64a0 @tempfile=#<Tempfile:/tmp/RackMultipart20160724-6799-10z5i6y.jpg>, @original_filename="enhanced-buzz-22339-1398447941-4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"apologize[apologize_image]\"; filename=\"enhanced-buzz-22339-1398447941-4.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Tenho que comer toda a comida que tenho. Pode demorar um pouco", "author_id"=>"4"}, "commit"=>"Create Apologize"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "apologizes" ("apologize_image", "description", "author_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["apologize_image", "enhanced-buzz-22339-1398447941-4.jpg"], ["description", "Tenho que comer toda a comida que tenho. Pode demorar um pouco"], ["author_id", 4], ["created_at", "2016-07-24 13:56:52.224043"], ["updated_at", "2016-07-24 13:56:52.224043"]]
+  [1m[35m (71.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/admin/apologizes/3
+Completed 302 Found in 78ms (ActiveRecord: 71.5ms)
+
+
+Started GET "/admin/apologizes/3" for 127.0.0.1 at 2016-07-24 10:56:52 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 25ms (Views: 20.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 10:56:53 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT "apologizes".* FROM "apologizes"[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 10:56:56 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 10:59:09 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT "apologizes".* FROM "apologizes"[0m
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 10:59:11 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 10:59:26 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY "apologizes"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (undefined method `each' for #<Apologize:0x007f36212b3a00>):
+    1: <% @apologizes.each do |apologize| %>
+    2:   <%= apologize.description %>
+    3: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4197628968125994584_47239599066320'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.5ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 10:59:38 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY "apologizes"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `each' for #<Apologize:0x007f361c4c8fe8>):
+    1: <% @apologizes.each do |apologize| %>
+    2:   <%= apologize.description %>
+    3: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4197628968125994584_47239599066320'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.8ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:01:54 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY "apologizes"."id" ASC LIMIT 1[0m
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 31ms (Views: 20.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:02:03 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT "apologizes".* FROM "apologizes"[0m
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 29ms (Views: 24.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:02:22 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.1ms)[0m  SELECT "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ?  [["id", 1]]
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 19.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:02:40 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 6ms (ActiveRecord: 0.7ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Apologize with 'id'=1):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.1ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:03:27 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ?  [["id", 2]]
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 27ms (Views: 21.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:03:34 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ?[0m  [["id", 1]]
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 19.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:03:39 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.1ms)[0m  SELECT "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ?  [["id", 3]]
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 26ms (Views: 21.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:06:50 -0300
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+TypeError (can't convert Hash into Integer):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:06:59 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.1ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY "apologizes"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `each' for #<Apologize:0x007f362158fe40>):
+    1: <% @apologizes.each do |apologize| %>
+    2:   <%= apologize.description %>
+    3: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4197628968125994584_47239599066320'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (28.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:07:20 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.4ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (undefined method `each' for #<Apologize:0x007f36222480d8>):
+    1: <% @apologizes.each do |apologize| %>
+    2:   <%= apologize.description %>
+    3: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4197628968125994584_47239599066320'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.0ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:02 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.4ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `each' for #<Apologize:0x007f361c146b40>):
+    1: <!-- <% @apologizes.each do |apologize| %>
+    2:   <%= apologize.description %>
+    3: <% end %> -->
+    4: 
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4197628968125994584_69935188001120'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:11 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.4ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `description' for nil:NilClass):
+    1: 
+    2: 
+    3: <%= @apologize.description %>
+  app/views/home/index.html.erb:3:in `_app_views_home_index_html_erb__4197628968125994584_69935192110340'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.5ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:19 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.4ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 17.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:25 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:26 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:27 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:28 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:30 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:31 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:33 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:34 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:35 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:36 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:40 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:43 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:44 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:45 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:46 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:47 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:48 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:48 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:49 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:08:50 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:44 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:44 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:45 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:46 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/apologizes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/scaffolds.self-2cbc626539ef86b0b14afc52ff5f77755653dd64fce0d5acb3b1b2c1d3559b4f.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/authors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/apologizes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/authors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-24 11:11:47 -0300
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:12:42 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (27.9ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined local variable or method `my_path' for #<#<Class:0x007f362292f6f8>:0x007f361c2341b0>
+Did you mean?  home_path):
+    2: 
+    3: <%= @apologize.description %>
+    4: 
+    5: <%= button_to "Refresh", my_path, :method => :get %>
+  app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb__4197628968125994584_69935188849840'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.8ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.4ms)
+
+
+Started GET "/routes" for 127.0.0.1 at 2016-07-24 11:12:54 -0300
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (6.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/aluno111/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:07 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:08 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:09 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:10 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:10 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:11 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:11 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:11 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:12 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:13 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:13 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:13 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:14 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:30 -0300
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:32 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"L0YptVxXzLk0lEU0950wBGfgIjgiTgLoLzSCJNlbUNLKEqFFkjzSfGnra1kusNkcA+AVFzXPJQcyKrZOkB3o6A=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:33 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"d2RiWjsENCs0vkc1Go6D/fRAIheuzk+/RhZ1v2qvUKWSMOqq9W8q7mnBaVjDo2rlkEAVOLlPaFBbCEHVI+nonw=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:33 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"gImAA87YbS2dUCxrIu/ebuUC4KIhRXVykUvL6oD+cCZl3QjzALNz6MAvAgb7wjd2gQLXjTbEUp2MVf+AybjIHA=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:34 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"Ryj2IafkK5i3cJj2nqlYtGAUjdCm5z+HdAzqsxAbkcGifH7RaY81XeoPtptHhLGsBBS6/7FmGGhpEt7ZWV0p+w=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:35 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"vihuHefXljD0zuFlBAJnuQs51/pOdc+G8bx2hfLUgttbfObtKbyI9amxzwjdL46hbzng1Vn06GnsokLvu5I64Q=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:13:36 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"d92isJwWb28IpbOiP6siWSCgIW0ZMOHpM5901rBh6WSSiSpAUn1xqlXanc/mhstBRKAWQg6xxgYugUC8+SdRXg=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes/new" for 127.0.0.1 at 2016-07-24 11:15:11 -0300
+Processing by Admin::ApologizesController#new as HTML
+  [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT "authors".* FROM "authors"[0m
+  Rendered admin/apologizes/_form.html.erb (2.5ms)
+  Rendered admin/apologizes/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 28ms (Views: 22.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes/new" for 127.0.0.1 at 2016-07-24 11:15:23 -0300
+Processing by Admin::ApologizesController#new as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered admin/apologizes/_form.html.erb (2.1ms)
+  Rendered admin/apologizes/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:15:31 -0300
+Processing by Admin::ApologizesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KDEBQz6v7EBA7BNqJ79J4ku8jhteep7mg0+y1rt3jCnNZYmz8MTyhR2TPQf+kqD6L7y5NEn7uQmeUYa88jE0Ew==", "apologize"=>{"apologize_image"=>#<ActionDispatch::Http::UploadedFile:0x007f361c068598 @tempfile=#<Tempfile:/tmp/RackMultipart20160724-6799-1o6noho.jpg>, @original_filename="enhanced-buzz-23571-1398447985-8.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"apologize[apologize_image]\"; filename=\"enhanced-buzz-23571-1398447985-8.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Estou devendo um Tempo Para Mim Mesmo", "author_id"=>"4"}, "commit"=>"Create Apologize"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apologizes" ("apologize_image", "description", "author_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["apologize_image", "enhanced-buzz-23571-1398447985-8.jpg"], ["description", "Estou devendo um Tempo Para Mim Mesmo"], ["author_id", 4], ["created_at", "2016-07-24 14:15:31.372118"], ["updated_at", "2016-07-24 14:15:31.372118"]]
+  [1m[36m (83.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/apologizes/4
+Completed 302 Found in 88ms (ActiveRecord: 83.4ms)
+
+
+Started GET "/admin/apologizes/4" for 127.0.0.1 at 2016-07-24 11:15:31 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:15:32 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes/new" for 127.0.0.1 at 2016-07-24 11:16:14 -0300
+Processing by Admin::ApologizesController#new as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered admin/apologizes/_form.html.erb (2.2ms)
+  Rendered admin/apologizes/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:16:39 -0300
+Processing by Admin::ApologizesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pNmRXPePxrTAOx6QA9EyiikM0wsPCa0V/Iwm6jBA2mxBjRmsOeTYcZ1EMP3a/NuSTQzkJBiIivrhkhKAeQZiVg==", "apologize"=>{"apologize_image"=>#<ActionDispatch::Http::UploadedFile:0x0055eda6ac9178 @tempfile=#<Tempfile:/tmp/RackMultipart20160724-6799-19rhrnd.jpg>, @original_filename="enhanced-buzz-15858-1398446563-12.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"apologize[apologize_image]\"; filename=\"enhanced-buzz-15858-1398446563-12.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Acho que eu tenho que ficar em casa e ter uma crise existencial", "author_id"=>"4"}, "commit"=>"Create Apologize"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apologizes" ("apologize_image", "description", "author_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["apologize_image", "enhanced-buzz-15858-1398446563-12.jpg"], ["description", "Acho que eu tenho que ficar em casa e ter uma crise existencial"], ["author_id", 4], ["created_at", "2016-07-24 14:16:39.612954"], ["updated_at", "2016-07-24 14:16:39.612954"]]
+  [1m[36m (71.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/apologizes/5
+Completed 302 Found in 76ms (ActiveRecord: 71.3ms)
+
+
+Started GET "/admin/apologizes/5" for 127.0.0.1 at 2016-07-24 11:16:39 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:16:40 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:47 -0300
+Processing by HomeController#index as HTML
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:48 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"KnXeYtDJrXUo+KcQsZQ+udkZGFx0UUkDP8df+mXN1yzPIVaSHqKzsHWHiX1oudehvRkvc2PQbuwi2WuQLItvFg=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:49 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"cm85WN3HzfBAEUo/nSP8ZTHQX2sYimbNjbSpbRE5WQaXO7GoE6zTNR1uZFJEDhV9VdBoRA8LQSKQqp0HWH/hPA=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:50 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"/zudbEShhdgkDiPUzjYnpCxqP1CaiYMnSwRoVqWgYmcabxWcisqbHXlxDbkXG868SGoIf40IpMhWGlw87ObaXQ=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:51 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"VErHHnn/dnF44ehIcB3jjHaDnhdyaGIJpTaFF1oNYY6xHk/ut5RotCWexiWpMAqUEoOpOGXpRea4KLF9E0vZtA=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:52 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"8tPx34i2T9haeUMY8+X8Lj+1TEhoCUI1eQxOUBYfDS4Xh3kvRt1RHQcGbXUqyBU2W7V7Z3+IZdpkEno6X1m1FA=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:53 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"TBn9OnQc2QQQB/67yvTMNKKOMiobT7ExEZonCge/4c6pTXXKunfHwU140NYT2SUsxo4FBQzOlt4MhBNgTvlZ9A=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:56 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"+mvKQoTds+/TrGx2ym7zqV8DUDp/1Id7gAXxpX4LPjcfP0KySratKo7TQhsTQxqxOwNnFWhVoJSdG8XPN02GDQ=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:57 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"xP8pFyHraXqU7x0XJY8a1ZhoF6Fp/V+WPk8fkgcSZHchq6Hn74B3v8mQM3r8ovPN/Gggjn58eHkjUSv4TlTcTQ=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:16:59 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"7Pa9bEhbBRTje8BKpYcpTmCE9JCkuUcE31nEZet6Oq0JojWchjAb0b4E7id8qsBWBITDv7M4YOvCR/APojyClw=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:17:01 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"UQ4wHNJhRP16LPVcn/Sw/HmltASc2KR6PBvEfQpwNNG0WrjsHApaOCdT2zFG2VnkHaWDK4tZg5UhBfAXQzaM6w=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:17:03 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"rnCY5bYJ+na/lnuHo4FSFK970q/ZvXDq+uPKiWEqzYhLJBAVeGLks+LpVep6rLsMy3vlgM48VwXn/f7jKGx1sg=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:17:04 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"ZROTSif0VBYAwMAnGceWJgtttNzfOF9BrOz+HbEVBnSARxu66Z9K012/7krA6n8+b22D88i5eK6x8sp3+FO+Tg=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:17:05 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"RD+quucP0T5wFoTN5m3UAcOP9RexMgBd6S9ybCYSx92hayJKKWTP+y1pqqA/QD0Zp4/COKazJ7L0MUYGb1R/5w=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:17:06 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"e+mgX+t2f6m3dwAbtpVZUONoD0npzBAE5kOp3rZxh1ievSivJR1hbOoILnZvuLBIh2g4Zv5NN+v7XZ20/zc/Yg=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:17:07 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"abHmoCGf9tUFkG10Ws3vwsBdDtWHGebONATmgM13p16M5W5Q7/ToEFjvQxmD4AbapF05+pCYwSEpGtLqhDEfZA=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:17:08 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"9hAOTXUHz7Vw91Csmr/r00HTiKfhAtmY1uLs/RACR+ITRIa9u2zRcC2IfsFDkgLLJdO/iPaD/nfL/NiXWUT/2A=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:17:10 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"LDqGKIMldlKKkAzjJZcSIGYdX7a7g3pVMkz6NrjYxMrJbg7YTU5ol9fvIo78uvs4Ah1omawCXbovUs5c8Z588A=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:17:12 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"OHaUqZplCjO+4YVbBJJ5O5d2e6WLNlOa9B7o8Xr7YhHdIhxZVA4U9uOeqzbdv5Aj83ZMipy3dHXpANybM73aKw=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes/new" for 127.0.0.1 at 2016-07-24 11:17:26 -0300
+Processing by Admin::ApologizesController#new as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered admin/apologizes/_form.html.erb (2.3ms)
+  Rendered admin/apologizes/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:17:44 -0300
+Processing by Admin::ApologizesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WXeH8XmSeCqw4dZvB2Pnzwc1CHIK0OE/Lp54GrofKXu8Iw8Bt/lm7+2e+ALeTg7XYzU/XR1RxtAzgExw81mRQQ==", "apologize"=>{"apologize_image"=>#<ActionDispatch::Http::UploadedFile:0x007f36161ad3c8 @tempfile=#<Tempfile:/tmp/RackMultipart20160724-6799-7vyt6m.jpg>, @original_filename="enhanced-buzz-14059-1398446597-26.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"apologize[apologize_image]\"; filename=\"enhanced-buzz-14059-1398446597-26.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Tem muita TV para ser assistida", "author_id"=>"4"}, "commit"=>"Create Apologize"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apologizes" ("apologize_image", "description", "author_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["apologize_image", "enhanced-buzz-14059-1398446597-26.jpg"], ["description", "Tem muita TV para ser assistida"], ["author_id", 4], ["created_at", "2016-07-24 14:17:44.032129"], ["updated_at", "2016-07-24 14:17:44.032129"]]
+  [1m[36m (75.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/apologizes/6
+Completed 302 Found in 81ms (ActiveRecord: 76.1ms)
+
+
+Started GET "/admin/apologizes/6" for 127.0.0.1 at 2016-07-24 11:17:44 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:17:45 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/apologizes/new" for 127.0.0.1 at 2016-07-24 11:18:25 -0300
+Processing by Admin::ApologizesController#new as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered admin/apologizes/_form.html.erb (1.8ms)
+  Rendered admin/apologizes/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:18:49 -0300
+Processing by Admin::ApologizesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"am8O15HQpp4Qp89EYHxP0kJYAnt5egBNYupW4b3Zh7yPO4YnX7u4W03Y4Sm5UabKJlg1VG77J6J/9GKL9J8/hg==", "apologize"=>{"apologize_image"=>#<ActionDispatch::Http::UploadedFile:0x0055eda450db28 @tempfile=#<Tempfile:/tmp/RackMultipart20160724-6799-1gsvj3.jpg>, @original_filename="enhanced-buzz-12515-1398447733-13.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"apologize[apologize_image]\"; filename=\"enhanced-buzz-12515-1398447733-13.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Se eu não lavar a roupa, eu vou literalmente ter que sair de casa pelado amanhã", "author_id"=>"4"}, "commit"=>"Create Apologize"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apologizes" ("apologize_image", "description", "author_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["apologize_image", "enhanced-buzz-12515-1398447733-13.jpg"], ["description", "Se eu não lavar a roupa, eu vou literalmente ter que sair de casa pelado amanhã"], ["author_id", 4], ["created_at", "2016-07-24 14:18:49.676758"], ["updated_at", "2016-07-24 14:18:49.676758"]]
+  [1m[36m (62.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/apologizes/7
+Completed 302 Found in 67ms (ActiveRecord: 62.7ms)
+
+
+Started GET "/admin/apologizes/7" for 127.0.0.1 at 2016-07-24 11:18:49 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:18:53 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"vLt8qm91ij6Jacmm0xe70Ih4AewcymEprWVBr1cj3+xZ7/RaoR6U+9QW58sKOlLI7Hg2wwtLRsawe3XFHmVn1g=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:18:54 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"a2igL//UXjUKtiYLks4h3Gq3r9pOwO18kryU6kgPAm2OPCjfMb9A8FfJCGZL48jEDreY9VlBypOPoqCAAUm6Vw=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:18:55 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"ZgdvyktWspQQalwu5ZRoI8y1IRTjpdgHgHAM9z7C0SuDU+c6hT2sUU0VckM8uYE7qLUWO/Qk/+idbjidd4RpEQ=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:18:57 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"bd8UpP+KJSKvyWp3lJwS7ZzSjkA1ZTsjGf0Xmf/dJTaIi5xUMeE75/K2RBpNsfv1+NK5byLkHMwE4yPztpudDA=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:18:58 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"JDR0Q6peEz6AIEX8yRfrAkeDv99tkCI9NwGakCSX+HrBYPyzZDUN+91fa5EQOgIaI4OI8HoRBdIqH676bdFAQA=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:19:00 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"NvCGNbhRNStRR3iRh9d61FEk/LWhyAf3AKfDOqDMxLXTpA7Fdjor7gw4Vvxe+pPMNSTLmrZJIBgdufdQ6Yp8jw=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:19:02 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"tFECYGikkgVtUJMi3lrUOq57V49+OHybyh38Aruwo6ZRBYqQps+MwDAvvU8Hdz0iyntgoGm5W3TXA8ho8vYbnA=="}
+  [1m[35mApologize Load (0.4ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:19:04 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"sVNcUx79Lqve5JoHIdAa1eJpSu315sLa+j3bWCVp8R1UB9Sj0JYwboObtGr4/fPNhml9wuJn5TXnI+8ybC9JJw=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:19:05 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"nmieeev7d0HKcOt2bk4ipSrqT0I3nPYOSdhdN/z3qB57PBaJJZBphJcPxRu3Y8u9Tup4bSAd0eFUxmldtbEQJA=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:19:07 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"uPXNeXg0yhMG2xzzkshujkBNVDnuHdCKbGApfCOcHdldoUWJtl/U1lukMp5L5YeWJE1jFvmc92Vxfh0Watql4w=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:19:08 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"4Pn77aZXGkyLRuJ0GEWZTDGApmtFGR67Ph0ncONjSQsFrXMdaDwEidY5zBnBaHBUVYCRRFKYOVQjAxMaqiXxMQ=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:19:42 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT "apologizes".* FROM "apologizes"[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/apologizes/new" for 127.0.0.1 at 2016-07-24 11:19:47 -0300
+Processing by Admin::ApologizesController#new as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered admin/apologizes/_form.html.erb (2.1ms)
+  Rendered admin/apologizes/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:20:13 -0300
+Processing by Admin::ApologizesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LNAJOePISVx6GtNHc0RbFOeGyfhCo8JbUoSLZ1Q8VE7JhIHJLaNXmSdl/SqqabIMg4b+11Ui5bRPmr8NHXrsdA==", "apologize"=>{"apologize_image"=>#<ActionDispatch::Http::UploadedFile:0x007f361c45a480 @tempfile=#<Tempfile:/tmp/RackMultipart20160724-6799-1hwkhgj.jpg>, @original_filename="enhanced-buzz-25403-1398447965-9.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"apologize[apologize_image]\"; filename=\"enhanced-buzz-25403-1398447965-9.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Netflix", "author_id"=>"4"}, "commit"=>"Create Apologize"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apologizes" ("apologize_image", "description", "author_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["apologize_image", "enhanced-buzz-25403-1398447965-9.jpg"], ["description", "Netflix"], ["author_id", 4], ["created_at", "2016-07-24 14:20:13.057037"], ["updated_at", "2016-07-24 14:20:13.057037"]]
+  [1m[36m (94.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/apologizes/8
+Completed 302 Found in 99ms (ActiveRecord: 94.3ms)
+
+
+Started GET "/admin/apologizes/8" for 127.0.0.1 at 2016-07-24 11:20:13 -0300
+Processing by Admin::ApologizesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mApologize Load (0.1ms)[0m  SELECT  "apologizes".* FROM "apologizes" WHERE "apologizes"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/apologizes" for 127.0.0.1 at 2016-07-24 11:20:14 -0300
+Processing by Admin::ApologizesController#index as HTML
+  [1m[35mApologize Load (0.2ms)[0m  SELECT "apologizes".* FROM "apologizes"
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered admin/apologizes/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:20:17 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"8Mbko6aqGT9GEiAYaE+Xj1IOfEPiYcpa3Gjj/5pXfCgVkmxTaMEH+httDnWxYn6XNg5LbPXg7bXBdteV0xHEEg=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:20:18 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"Uh8JEMm/oca/hikvSkeWTRXB+idOLEieqXFXxIPcbv63S4HgB9S/A+L5B0KTan9VccHNCFmtb3G0b2OuyprWxA=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:20:20 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"wliIflwCFh36YliDQFrbQV+wzqVTGSoD3v1fkkBOgVMnDACOkmkI2Kcddu6ZdzJZO7D5ikSYDezD42v4CQg5aQ=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:20:21 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"fF6mjzJ6AFPRisPFHinwx4924lnIwgztpyIi95thOK+ZCi5//BEeloz17ajHBBnf63bVdt9DKwK6PBad0ieAlQ=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:20:22 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"8VKIHZ3YhRToA1Os2RQsLWkGRvwgcvKPB+7bUrkh64AUBgDtU7Ob0bV8fcEAOcU1DQZx0zfz1WAa8O848GdTug=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:20:23 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"S0N9WoKgzQX/vfM+v0gH/Tunva7kq/0F1yS9Yu1plP+uF/WqTMvTwKLC3VNmZe7lX6eKgfMq2urKOokIpC8sxQ=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:20:24 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"fNJKMKWfOCsKqGLlr5ngKFpSv5/6zCeB3eXiPZrbb7+ZhsLAa/Qm7lfXTIh2tAkwPlKIsO1NAG7A+9ZX053XhQ=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:20:25 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"Th0KZYhLuy3lycPfmV28+4Yuzdvn1SkFF4xN8GPPdF+rSYKVRiCl6Li27bJAcFXj4i769PBUDuoKknmaKonMZQ=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:20:27 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"kdXsqM8uB3/rGbmVyS97ytNczAc8ZaAi2Y7YVHI1Xad0gWRYAUUZurZml/gQApLSt1z7KCvkh83EkOw+O3PlnQ=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:21:12 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"oY2Gl4Nm+CApMimJ+itn0vA/byiqf3YcBZNgNHQbCJxE2Q5nTQ3m5XRNB+QjBo7KlD9YB73+UfMYjVRePV2wpg=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:21:13 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"ha1RaSI7W5cDVLAfWQLKVYtk0NCqFIYfYS4yO0NjC1dg+dmZ7FBFUl4rnnKALyNN72Tn/72VofB8MAZRCiWzbQ=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:21:14 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"xt5LeNoDAryGtnfl57hufJe3WcHechr9JETRXNAARwEjisOIFGgcedvJWYg+lYdk87du7snzPRI5WuU2mUb/Ow=="}
+  [1m[36mApologize Load (0.2ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:21:15 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"rb6lygqiuQFZRsSC9c6JDjAZOdYFCa++BA87vIZkCAlI6i06xMmnxAQ56u8s42AWVBkO+RKIiFEZEQ/WzyKwMw=="}
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-24 11:22:34 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mApologize Load (0.3ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 214ms (Views: 197.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:22:36 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"dQHIV5FJekV5E/VfhqYKl2M6+LKYABW4KiLF26ZZobiQVUCnXyJkgCRs2zJfi+OPBzrPnY+BMlc3PPGx7x8Zgg=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:22:38 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"yOVMl+rNb1FIPzif87vbALrZryBZiplbWBfAQjmiPectscRnJKZxlBVAFvIqljIY3tmYD04LvrRFCfQocOSF3Q=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:22:38 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"DbajE+KBOiwhmeA4jNc4jjJR467cnChz0Hzgb2DlQSjo4ivjLOok6XzmzlVV+tGWVlHUgcsdD5zNYtQFKaP5Eg=="}
+  [1m[36mApologize Load (0.3ms)[0m  [1mSELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-07-24 11:22:39 -0300
+Processing by HomeController#index as HTML
+  Parameters: {"authenticity_token"=>"ZH1ha1sUJDvIYZC04aA8uLTee8z/BhKYk1hQfBLTXdOBKemblX86/pUevtk4jdWg0N5M4+iHNXeORmQWW5Xl6Q=="}
+  [1m[35mApologize Load (0.2ms)[0m  SELECT  "apologizes".* FROM "apologizes"  ORDER BY RANDOM() LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.2ms)
