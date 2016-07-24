@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160724114758) do
+ActiveRecord::Schema.define(version: 20160724123607) do
+
+  create_table "apologizes", force: :cascade do |t|
+    t.string   "apologize_image"
+    t.string   "description"
+    t.integer  "author_id"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
+  add_index "apologizes", ["author_id"], name: "index_apologizes_on_author_id"
 
   create_table "authors", force: :cascade do |t|
     t.string   "name"
